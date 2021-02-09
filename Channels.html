@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Something</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center><h2>Channels</h2></center>
+        <center><button onclick="noggin()">Life Noggin</button></center>
+        <br>
+        <center><button onclick="info()">The Infographics Show</button></center>
+        <br>
+        <hr class="divider">
+        <center><h2>Pages</h2></center>
+        <center><button onclick="youtube()">Youtube</button></center>
+        <br>
+        <center><button onclick="tab1()">Homepage</button></center>
+        <br>
+        <hr class="divider">
+        <center><h2>Toggles</h2></center>
+        <center><button onclick="darktoggle()">Toggle Dark Mode</button></center>
+        <hr>
+        <center><p class="footer">Thank You!</p></center>
+
+        <script>
+            function darktoggle() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+            function noggin() {
+                window.location.href='https://www.youtube.com/channel/UCpJmBQ8iNHXeQ7jQWDyGe3A';
+            }
+            function info() {
+                window.location.href='https://www.youtube.com/channel/UCfdNM3NAhaBOXCafH7krzrA';
+            }
+            function tab1() {
+                window.location.href='My Webpage.html';
+            }
+            function youtube() {
+                window.location.href='https://www.youtube.com';
+            }
+        </script>
+    </body>
+</html>

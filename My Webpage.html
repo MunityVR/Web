@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Something</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center><h1>Munity's Web</h1></center>
+        <hr class="divider">
+        <br>
+        <center><button onclick="tab1()">Channels</button></center>
+        <br>
+        <center><button onclick="darktoggle()">Toggle Dark Mode</button></center>
+
+        <script>
+            function darktoggle() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+            function tab1() {
+                window.location.href='Channels.html';
+            }
+        </script>
+    </body>
+</html>
