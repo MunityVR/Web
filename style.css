@@ -1,0 +1,15 @@
+body {
+    background-color:white;
+    color:black;
+}
+
+.dark-mode {
+    background-color:black;
+    color:white;
+}
+
+
+hr.divider {
+    border-top:8px solid #bbb;
+    border-radius:50px;
+}
