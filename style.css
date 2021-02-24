@@ -1,17 +1,9 @@
-hr.colorb:inactive {
-    border-color:#CCCCCC;
-}
-
-hr.colora:inactive {
-    border-color:#333333;
-}
-
-.body, hr.colora:active {
+.body {
     background-color:white;
     color:black;
 }
 
-.dark-mode, hr.colorb:active {
+.dark-mode {
     background-color:black;
     color:white;
 }
