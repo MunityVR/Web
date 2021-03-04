@@ -1,1 +1,1 @@
-github.io currently doesn't work
+munityvr.github.io/web/ currently doesn't work!
