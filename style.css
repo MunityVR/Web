@@ -3,25 +3,24 @@
     color:black;
 }
 
-.dark-mode {
-    background-color:black;
-    color:white;
-}
-
 .footer {
     font-size:12px;
 }
 
 hr.divider {
     outline:none;
-    border-top:8px solid #bbb;
+    border-top:8px solid;
     border-radius:50px;
 }
 
 hr.footdiv {
     outline:none;
-    border-top:4px solid #bbb;
+    border-top:4px solid;
     border-radius:25px;
+}
+
+.about {
+    font-weight: bold;
 }
 
 button {
