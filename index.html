@@ -1,44 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <title>Webpage</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Homepage</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body class="body">
+    <body>
+        <div class="tc"><h1>People Entered:</h1>
+        <h2 id="counter">0</h2>
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <br>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Previous entries: </p></div>
         
-        <!-- Navigation Bar -->
-        <div class="topnav">
-            <div class="topnav-centered">
-            <a href="index.html">MunityVR Homepage</a>
-        </div>
-            <div class="dropdown">
-                <button class="dropbtn">Websites
-                    <i class="caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                <a href="https://unity.com">Unity</a>
-                <a href="https://github.com">GitHub</a>
-                <a href="https://www.onlinegdb.com/">OnlineGDB</a>
-            </div></div>
-            <div class="topnav-right">
-            <div class="dropdown">
-                <button class="dropbtn">Channels
-                    <i class="caret-down"></i>
-                </button>
-                <div class="dropdown-content topnav-right-dd">
-                <a href="https://www.youtube.com/channel/UCfdNM3NAhaBOXCafH7krzrA">The Infographics Show</a>
-                <a href="https://www.youtube.com/channel/UCpJmBQ8iNHXeQ7jQWDyGe3A">Life Noggin</a>
-        </div></div></div></div>
-        
-        <!-- Content -->
-        <hr class="footdiv">
-        <div class="about"><center><p>I am self taught at age 14, I was curious how minecraft servers run their little games and then I learned they use plugins. I started a little private server to mess around with plugins, I started to want to create my own plugin and I started to go through tutorials. I learn that plugins are programmed in Java (which is a programming language)</p></center>
-        <center><p>I started to learn the basics first and then start to work my way to the plugin. I didn't stop there because I wanna make something amazing which is a minecraft mod for the 1.11.2 version of minecraft (1.11.2 was the latest version at the time). When I was about done with it, I decided to move on to AI's, so I learned python and tried to make an AI from scratch (big learning curve to learn to program an AI).</p></center>
-        <center><p>I decided to program a 2D game that has levels (biggest mistake by the way). I use Java for this project because I am more familiar with Java than Python. I started to work on the window for the game and then all of the game assets and holy crap baskets, I needed to make a game engine (I swear the headache it gave me). I could have used an already made one like Unity or Unreal Engine but I wanted to create it from scratch because I wanted to see if I could do it (it killed my brain and afterwards I wasn't okay because I stayed up basically 24/7, DO NOT DO THIS! Because mental health is important) The engine itself took me 1 whole year but everything else wasn't so painful, but I was about to finish it and then my PC broke down AND MY SSD IS JUST SITTING THERE WITH NOTHING ELSE TO DO BESIDES SITTING THERE LOOKING PRETTY!</p></center>
-        <center><p>Okay let's continue before I go insane, so I decided to take some break until (holy muffins) I saw a social platform called VRChat that allows you to make your own content. This is my first time going into the VR genre and my first experience with VR, this would be my first time using Unity and to be able to make friends, if you don't know what VRChat is then let me tell you a wise one. VRChat is a social platform where you can make friends that you can surround yourself with and have the compatibilities to make your own world that you can show the community or make an avatar, however I would recommend to watch who you surround yourself with.</p></center>
-        <center><p>I did eventually created a world and learn so much about Unity from doing so. I now have projects to do and also web development is something that I am working on as you can see.</p></center></div>
-        <hr class="footdiv">
-        <center><p class="footer">Created by: Munity</p></center>
-        
+
+        <script src="script.js"></script>
     </body>
 </html>
