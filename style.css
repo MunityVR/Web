@@ -1,120 +1,56 @@
-.body {
-    background-color:#1A1A1A;
-    color:#FFFFFF;
+body {
+    background-image: url(images/Background.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.footer {
-    font-size:12px;
-    font-weight:bold;
+h1, h2 {
+    text-align: center;
+    color: darkgray;
 }
 
-hr.divider {
-    outline:none;
-    border-top:8px solid;
-    border-radius:50px;
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 
-hr.footdiv {
-    outline:none;
-    border-top:4px solid;
-}
-
-.about {
-    font-size: 16px;
-    font-weight: bolder;
-}
-
-.topnav {
-    position: relative;
-}
-
-.topnav a {
-  float: none;
-  color: white;
-  font-weight: bolder;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.topnav-centered a {
-  float: none;
-  position: absolute;
-  font-size: 18px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.topnav-right {
-  float: right;
-}
-
-.topnav-right-dd {
-    left:-50%;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a, .topnav-right {
-    float: none;
+#increment-btn {
+    background-color: red;
     display: block;
-     }
-
-  .topnav-centered a {
-    position: relative;
-    top: 0%;
-    left: 0%;
-    transform: none;
-  }
+    margin: auto;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+#increment-btn:hover {
+    background-color: darkred;
 }
 
-.dropbtn {
-  background-color: inherit;
-  color: white;
-  font-weight: bolder;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: -12px -16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.caret-down {
-  float: right;
-  padding-right: 8px;
-}
-
-.dropdown:hover .dropdown-content {
+#save-btn {
+    background-color: green;
     display: block;
+    margin: auto;
+}
+
+#save-btn:hover {
+    background-color: darkgreen;
+}
+
+p {
+    text-align: center;
+    color: darkgray;
+    font-size: 20px;
+}
+
+.tc {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
