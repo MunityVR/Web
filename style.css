@@ -1,6 +1,6 @@
 body {
     background-image: url(images/Background.jpg);
-    background-position: center;
+    background-position: relative;
     background-size: cover;
 }
 
@@ -38,6 +38,16 @@ button {
 
 #save-btn:hover {
     background-color: darkgreen;
+}
+
+#reset-btn {
+    background-color: #BF40BF;
+    display: block;
+    margin: auto;
+}
+
+#reset-btn:hover {
+    background-color: purple;
 }
 
 p {
