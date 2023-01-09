@@ -1,18 +1,18 @@
 let counterEl = document.getElementById("counter")
-let saveEl = document.getElementById("save-el")
-let message = "Website has been reloaded!"
-let count = 0
+let count = parseInt(localStorage.Save) || 0;
+counterEl.innerHTML = count
 
 function increment() {
-    count += 1
-    counterEl.textContent = count
+    count++;
+    counterEl.innerHTML = count
 }
 
 function save() {
-    let sep = count + " - "
-    saveEl.textContent += sep
-    console.log(count)
+    localStorage.setItem("Save", JSON.stringify(count));
+}
 
+function reset() {
+    localStorage.clear("Save");
     count = 0
-    counterEl.textContent = count
+    counterEl.innerHTML = count
 }
