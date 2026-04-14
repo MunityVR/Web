@@ -1,5 +1,5 @@
 (function () {
-  const SECRET = "my-secret-key";
+  const SECRET = "Mun-is-cringe";
   const counterEl = document.getElementById("counter");
   let count = 0;
 
